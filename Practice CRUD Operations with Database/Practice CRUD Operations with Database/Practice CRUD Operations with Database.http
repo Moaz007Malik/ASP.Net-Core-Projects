@@ -1,0 +1,6 @@
+@Practice_CRUD_Operations_with_Database_HostAddress = http://localhost:5264
+
+GET {{Practice_CRUD_Operations_with_Database_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

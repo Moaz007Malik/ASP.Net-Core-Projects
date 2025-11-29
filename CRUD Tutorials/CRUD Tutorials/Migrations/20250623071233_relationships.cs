@@ -1,0 +1,139 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
+namespace CRUD_Tutorials.Migrations
+{
+    /// <inheritdoc />
+    public partial class relationships : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "Developer",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Developer", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Publisher",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Publisher", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "VideoGames",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Platform = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DeveloperId = table.Column<int>(type: "int", nullable: true),
+                    PublisherId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_VideoGames", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_VideoGames_Developer_DeveloperId",
+                        column: x => x.DeveloperId,
+                        principalTable: "Developer",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_VideoGames_Publisher_PublisherId",
+                        column: x => x.PublisherId,
+                        principalTable: "Publisher",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "VideoGameDetails",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    VideoGameId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_VideoGameDetails", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_VideoGameDetails_VideoGames_VideoGameId",
+                        column: x => x.VideoGameId,
+                        principalTable: "VideoGames",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "VideoGames",
+                columns: new[] { "Id", "DeveloperId", "Platform", "PublisherId", "Title" },
+                values: new object[,]
+                {
+                    { 1, null, "Playstation 5", null, "Ghost of Yōtei" },
+                    { 2, null, "PlayStation 4", null, "God of War" },
+                    { 3, null, "Xbox Series X/S", null, "Halo Infinite" },
+                    { 4, null, "Multi-platform", null, "Minecraft" },
+                    { 5, null, "PlayStation 4", null, "Final Fantasy VII Remake" },
+                    { 6, null, "Nintendo Switch", null, "Super Mario Odyssey" },
+                    { 7, null, "Multi-platform", null, "The Witcher 3: Wild Hunt" },
+                    { 8, null, "Multi-platform", null, "Cyberpunk 2077" },
+                    { 9, null, "Multi-platform", null, "Elden Ring" },
+                    { 10, null, "Nintendo Switch", null, "The Legend of Zelda: Breath of the Wild" }
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_VideoGameDetails_VideoGameId",
+                table: "VideoGameDetails",
+                column: "VideoGameId",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_VideoGames_DeveloperId",
+                table: "VideoGames",
+                column: "DeveloperId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_VideoGames_PublisherId",
+                table: "VideoGames",
+                column: "PublisherId");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "VideoGameDetails");
+
+            migrationBuilder.DropTable(
+                name: "VideoGames");
+
+            migrationBuilder.DropTable(
+                name: "Developer");
+
+            migrationBuilder.DropTable(
+                name: "Publisher");
+        }
+    }
+}

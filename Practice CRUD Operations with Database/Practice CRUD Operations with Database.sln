@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice CRUD Operations with Database", "Practice CRUD Operations with Database\Practice CRUD Operations with Database.csproj", "{780DD67C-7BF4-4481-BCB6-37CA6550AB58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780DD67C-7BF4-4481-BCB6-37CA6550AB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780DD67C-7BF4-4481-BCB6-37CA6550AB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780DD67C-7BF4-4481-BCB6-37CA6550AB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780DD67C-7BF4-4481-BCB6-37CA6550AB58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01DB24B1-B8DC-494D-AC82-A411990BEAB2}
+	EndGlobalSection
+EndGlobal

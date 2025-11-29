@@ -1,0 +1,33 @@
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\appsettings.Development.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\appsettings.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Linq Tutorial.staticwebassets.endpoints.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Linq Tutorial.exe
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Linq Tutorial.deps.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Linq Tutorial.runtimeconfig.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Linq Tutorial.dll
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Linq Tutorial.pdb
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.csproj.AssemblyReference.cache
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.AssemblyInfoInputs.cache
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.AssemblyInfo.cs
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.csproj.CoreCompileInputs.cache
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.MvcApplicationPartsAssemblyInfo.cs
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.MvcApplicationPartsAssemblyInfo.cache
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\scopedcss\bundle\Linq Tutorial.styles.css
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\staticwebassets.build.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\staticwebassets.development.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tut.F49519B0.Up2Date
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.dll
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\refint\Linq Tutorial.dll
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.pdb
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\Linq Tutorial.genruntimeconfig.cache
+D:\My Codes\Moaz Malik\source\repos\Linq Tutorial\Linq Tutorial\obj\Debug\net9.0\ref\Linq Tutorial.dll
